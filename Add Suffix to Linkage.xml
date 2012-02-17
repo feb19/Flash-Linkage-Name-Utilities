@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog id="ui" title="Add Suffix to Linkage" buttons="accept, cancel">
+  <grid>
+    <columns>
+      <column width="300px">
+        <label value="set suffix here." />
+      </column>
+    </columns>
+    
+    <rows>
+    <row>
+      <label value="suffix:   " />
+      <textbox id="suffix" control="suffix" width="200pix" /> 
+    </row>
+    </rows>
+    
+  </grid>
+</dialog>

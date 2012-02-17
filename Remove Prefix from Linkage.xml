@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog id="ui" title="Remove Prefix from Linkage" buttons="accept, cancel">
+  <grid>
+    <columns>
+      <column width="300px">
+        <label value="set remove count of prefix here." />
+      </column>
+    </columns>
+    
+    <rows>
+    <row>
+      <label value="count:   " />
+      <textbox id="count" control="count" width="200pix" /> 
+    </row>
+    </rows>
+    
+  </grid>
+</dialog>

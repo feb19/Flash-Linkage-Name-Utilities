@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog id="ui" title="Add Prefix to Linkage" buttons="accept, cancel">
+  <grid>
+    <columns>
+      <column width="300px">
+        <label value="set prefix here." />
+      </column>
+    </columns>
+    
+    <rows>
+    <row>
+      <label value="prefix:   " />
+      <textbox id="prefix" control="prefix" width="200pix" /> 
+    </row>
+    </rows>
+    
+  </grid>
+</dialog>
